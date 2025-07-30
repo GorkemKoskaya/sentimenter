@@ -86,8 +86,4 @@ After filtering:
 🖼️ **Insert confusion matrix plot below:**  
 📌
 <img width="709" height="533" alt="Karmaşıklık Matrisi" src="https://github.com/user-attachments/assets/2ab92fb5-26ae-4d00-a4ed-cfbb9645b222" />
-```python
-# Example plotting code for confusion matrix
-from sklearn.metrics import ConfusionMatrixDisplay
-ConfusionMatrixDisplay.from_predictions(y_true, y_pred, display_labels=['Positive', 'Neutral', 'Negative'], cmap='Blues')
-```
+
