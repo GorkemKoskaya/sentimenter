@@ -115,18 +115,19 @@ from transformers import BertTokenizer, BertForSequenceClassification
 model = BertForSequenceClassification.from_pretrained("bert-sentiment-model")
 tokenizer = BertTokenizer.from_pretrained("bert-sentiment-model")
 
-
-
-
-
-
 import torch
 
 # Sample sentences for prediction
 texts = [
-    "I love this product!",
-    "It's okay, not bad.",
-    "This was a terrible experience."
+    "Just saw the new Tesla update — absolutely love the self-driving improvements!",
+    "Apple's latest keynote was so disappointing, nothing innovative at all.",
+    "Microsoft Teams got some updates today. It’s decent but still a bit clunky to use.",
+    "Amazon’s customer service handled my issue very efficiently and politely. Great job!",
+    "The new policy changes by Facebook are confusing and not well-communicated.",
+    "Google is launching something new again. Not sure what to expect this time.",
+    "I had a really smooth flight with Delta today. Friendly staff and on-time arrival.",
+    "The new update from Spotify just ruined the whole interface, it’s a mess now.",
+    "Netflix's interface looks cleaner now. Let’s see if the streaming performance improves too."
 ]
 
 # Tokenize the inputs
