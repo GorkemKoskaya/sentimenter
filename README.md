@@ -87,3 +87,102 @@ After filtering:
 📌
 <img width="709" height="533" alt="Karmaşıklık Matrisi" src="https://github.com/user-attachments/assets/2ab92fb5-26ae-4d00-a4ed-cfbb9645b222" />
 
+## 🔮 Sample Predictions
+
+```text
+Text: Just saw the new Tesla update — absolutely love the self-driving improvements!
+Predicted Sentiment: Positive ✅
+
+Text: Apple's latest keynote was so disappointing, nothing innovative at all.
+Predicted Sentiment: Negative ✅
+
+Text: Microsoft Teams got some updates today. It’s decent but still a bit clunky to use.
+Predicted Sentiment: Neutral ✅
+
+Text: Amazon’s customer service handled my issue very efficiently and politely. Great job!
+Predicted Sentiment: Positive ✅
+
+Text: The new policy changes by Facebook are confusing and not well-communicated.
+Predicted Sentiment: Negative ✅
+
+Text: Google is launching something new again. Not sure what to expect this time.
+Predicted Sentiment: Neutral ✅
+
+Text: I had a really smooth flight with Delta today. Friendly staff and on-time arrival.
+Predicted Sentiment: Positive ✅
+
+Text: The new update from Spotify just ruined the whole interface, it’s a mess now.
+Predicted Sentiment: Negative ✅
+
+Text: Netflix's interface looks cleaner now. Let’s see if the streaming performance improves too.
+Predicted Sentiment: Neutral ✅
+```
+
+---
+
+## ⚙️ How to Run
+
+```bash
+# Clone the repository
+git clone https://github.com/gorkemkoskaya/twitter-sentiment-bert
+cd twitter-sentiment-bert
+
+# Install dependencies
+pip install transformers[torch] accelerate pandas scikit-learn matplotlib
+
+# Run training
+python train.py
+```
+
+---
+
+## 📦 Dependencies
+
+```text
+transformers >= 4.26.0
+accelerate >= 0.26.0
+torch
+pandas
+scikit-learn
+matplotlib
+```
+
+---
+
+## 🌱 Future Work
+
+```text
+- Experiment with other Transformer models (DistilBERT, RoBERTa)
+- Add SHAP explanations for interpretability
+- Deploy as a FastAPI/Flask API
+- Extend to multilingual sentiment classification
+```
+
+---
+
+## 🧾 Citation
+
+```text
+Dataset: Kaggle - Twitter Entity Sentiment (https://www.kaggle.com/datasets/jp797498e/twitter-entity-sentiment-analysis)
+Model: Hugging Face Transformers (https://huggingface.co/transformers/)
+```
+
+---
+
+## 👨‍💻 Author
+
+```text
+Developed by [Your Name]
+
+If you use this project, consider citing or starring the repo ⭐
+Pull requests are welcome!
+```
+
+---
+
+## 📈 Confusion Matrix
+
+```text
+# 🔽 Replace this with the actual confusion matrix plot
+📌 Here
+```
